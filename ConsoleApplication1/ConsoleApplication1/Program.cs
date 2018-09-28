@@ -13,7 +13,9 @@ namespace ConsoleApplication1
             Console.WriteLine("Hallo world!!!");
             Console.WriteLine("\n\tThis is magic !!!\n\t");
             Console.WriteLine("Lets rock!!! PARRRRTY!!!111");
+            Console.WriteLine("Now its on my mac!!!!");
             Console.Read();
+         
         }
     }
 }
