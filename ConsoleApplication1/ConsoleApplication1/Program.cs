@@ -11,7 +11,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Console.WriteLine("Hallo world!!!");
-            Console.WriteLine("New solution branch for github");
+            Console.WriteLine("New solution branch for githu!b");
             Console.Read();
         }
     }
