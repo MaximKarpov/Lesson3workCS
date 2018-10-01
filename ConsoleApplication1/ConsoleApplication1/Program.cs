@@ -10,12 +10,34 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hallo world!!!");
-            Console.WriteLine("\n\tThis is magic !!!\n\t");
-            Console.WriteLine("Lets rock!!! PARRRRTY!!!111");
-            Console.WriteLine("Now its on my mac!!!!");
+
+            //Задание 1
+            double radius;
+            double pi = Math.PI;
+            double S;
+            Console.WriteLine("Введите радиус круга: ");
+            radius = Convert.ToDouble(Console.ReadLine());
+            S = radius * radius * pi;
+            Console.WriteLine("Площадь круга: " + S);
+
+
+
+            //Задание 2
+            int summaKredita, procenti, deltaSummi = 0;
+            Console.WriteLine("Введите сумму кредита: ");
+            summaKredita = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите процент: ");
+            procenti = Convert.ToInt32(Console.ReadLine());
+            for(int i = 1; i<=12; i++)
+            {
+           
+                deltaSummi = ((summaKredita - deltaSummi) * procenti)/100;
+                Console.WriteLine("Сумма выплаты за " + i + "й месяц: " + deltaSummi + "\n");
+              
+                summaKredita -= deltaSummi;
+                Console.WriteLine("Остаток суммы" + summaKredita);
+            }
             Console.Read();
-         
         }
     }
 }
