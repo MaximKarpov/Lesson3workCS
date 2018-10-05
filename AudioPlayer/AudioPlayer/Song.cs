@@ -8,8 +8,10 @@ namespace AudioPlayer
 {
     class Song
     {
+        Album albumForCurrentSong;
         string name;
         string artist;
         int duration;
+
     }
 }
