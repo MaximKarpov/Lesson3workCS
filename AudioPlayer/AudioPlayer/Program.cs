@@ -44,7 +44,7 @@ namespace AudioPlayer
             {
                 Console.WriteLine(player.playingSong.lyrics);
             }
-
+            //это изменение!!!!!!!
             Console.ReadKey();
         }
     }
