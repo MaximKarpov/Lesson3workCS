@@ -6,12 +6,28 @@ using System.Threading.Tasks;
 
 namespace AudioPlayer
 {
-    class Song
+   public class Song
     {
-        Album albumForCurrentSong;
-        string name;
-        string artist;
-        int duration;
+       public Album albumForCurrentSong;
+       public string name;
+        public string artist;
+        public int duration;
+        public string lyrics;
+    
+        public Song()
+        {
+            this.name = "Unknown";
+            this.artist = "Unknown artist";
+            this.duration = 0;
+            this.lyrics = "No lyrics found";
+        }
+        public Song(string name, string lyrics, int duration)
+        {
+            this.name = name;
+            this.lyrics = lyrics;
+            this.duration = duration;
+
+        }
 
     }
 }

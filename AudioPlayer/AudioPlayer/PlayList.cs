@@ -6,9 +6,24 @@ using System.Threading.Tasks;
 
 namespace AudioPlayer
 {
-    class PlayList
+   public class PlayList
     {
-        string name;
-        Song[] songs;
+        public string name;
+        public List<Song> songs;
+        public PlayList(string name, Song[] songs)
+        {
+            foreach (Song newSong in songs)
+            {
+                this.songs.Add(newSong);
+            }
+            this.name = name;
+        }
+        public void add(params Song[] songs)
+        {
+            foreach (Song newSong in songs)
+            {
+                this.songs.Add(newSong);
+            }
+        }
     }
 }
