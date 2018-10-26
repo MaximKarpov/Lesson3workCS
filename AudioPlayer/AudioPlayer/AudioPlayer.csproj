@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>AudioPlayer</RootNamespace>
     <AssemblyName>AudioPlayer</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,14 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Album.cs" />
-    <Compile Include="Artist.cs" />
-    <Compile Include="AudioPlayer.cs" />
-    <Compile Include="Genre.cs" />
-    <Compile Include="PlayList.cs" />
+    <Compile Include="Domain\Album.cs" />
+    <Compile Include="Domain\Artist.cs" />
+    <Compile Include="Domain\AudioInstanse.cs" />
+    <Compile Include="Enums\Genre.cs" />
+    <Compile Include="Domain\PlayList.cs" />
+    <Compile Include="Extension\StringExtension.cs" />
+    <Compile Include="Extension\SongExtension.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Song.cs" />
+    <Compile Include="Domain\Song.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

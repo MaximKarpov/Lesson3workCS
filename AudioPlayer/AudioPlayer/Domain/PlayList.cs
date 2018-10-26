@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace AudioPlayer
 {
-    public class Genre
+   public class PlayList
     {
         public string name;
+        public List<Song> songs;
+        public void Add(params Song[] songes)
+
+        {
+
+            songs = songes.ToList<Song>();
+
+        }
     }
 }
