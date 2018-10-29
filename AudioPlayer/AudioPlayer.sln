@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioPlayer", "AudioPlayer\AudioPlayer.csproj", "{CA26CBB3-0DA7-49CF-9C27-3E0DA35035DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericPlayer", "GenericPlayer\GenericPlayer.csproj", "{FD97AB0F-44F7-4C5C-BF4E-882E3804CB71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CA26CBB3-0DA7-49CF-9C27-3E0DA35035DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA26CBB3-0DA7-49CF-9C27-3E0DA35035DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA26CBB3-0DA7-49CF-9C27-3E0DA35035DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD97AB0F-44F7-4C5C-BF4E-882E3804CB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD97AB0F-44F7-4C5C-BF4E-882E3804CB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD97AB0F-44F7-4C5C-BF4E-882E3804CB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD97AB0F-44F7-4C5C-BF4E-882E3804CB71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

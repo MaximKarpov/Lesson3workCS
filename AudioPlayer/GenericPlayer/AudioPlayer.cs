@@ -13,15 +13,11 @@ namespace AudioPlayer
 
         public bool Locked;
         public bool isPlaying;
-        public Song playingSong;
+        public PlayingItem playingItem;
         private int _volume;
-      public ArrayList songs = new ArrayList();
-        public PlayList playList;
+      public ArrayList Items = new ArrayList();
+       // public PlayList playList;
         int numsongs=0;
-
-
-
-
 
 
 
@@ -58,7 +54,7 @@ namespace AudioPlayer
             Locked = false;
         }
 
-        public void Add(Song newSong)
+        public void Add(PlayingItem newSong)
         {
         this.songs.Add(newSong);
         
