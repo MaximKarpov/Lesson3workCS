@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace lesson9DZ
 {
@@ -50,7 +46,7 @@ namespace lesson9DZ
             DateTimeExtension Now = new DateTimeExtension();
             var (_, _, _, hour, min, sec) = Now;
             Console.WriteLine("Время сейчас: " + hour + ":" + min + ":" + sec);
-            Console.ReadKey();
+            Console.ReadKey();    
         }
     }
 }
